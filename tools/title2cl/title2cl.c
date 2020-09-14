@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <malloc.h>
+#include <string.h>
 
 void
 trim (char *str)

@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.8)
+project(SDLhana)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_BUILD_TYPE Debug)
+find_package(SDL REQUIRED)
+find_package(SDL_ttf REQUIRED)
+add_subdirectory ("src")
+add_subdirectory ("tools")
